@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(e){var t=new fabric.Canvas("c",{backgroundColor:"rgb(100,100,200)",selectionColor:"rgba(0, 8, 255, 0.5)",selectionLineWidth:2}),n=new fabric.Rect({left:100,top:100,fill:"red",width:20,height:20,angle:45});t.add(n),n.set("fill","red"),n.set({strokeWidth:5,stroke:"rgba(100,200,200,0.5)"}),n.set("angle",10).set("flipY",!0)});
